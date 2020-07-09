@@ -1,4 +1,4 @@
-# Easy notes | task ticketing
+# Easy notes | task ticketing API
 
 > Task ticket is an application that lets you create unique special 4 digit token followed by task initials. Which is used in managing tasks in easy notes system development.
 
