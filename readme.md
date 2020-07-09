@@ -20,4 +20,5 @@ npm start
 
 - Version: 1.0.0
 
-<span align="center">Made with &#128151; by Swastik Thapaliya </span>
+
+<span align="center">Made with &#128151; by Swastik Thapaliya </span> <a href="https://fathomless-bastion-69185.herokuapp.com/"> Deployed in heroku </a>
