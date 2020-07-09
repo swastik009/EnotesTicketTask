@@ -35,6 +35,9 @@ const tokens = require('./routes/tokens');
 app.use(express.static(path.join(__dirname, 'public')));
 //Mount Routes
 app.use('/api/v1/tokens', tokens);
+app.get('/api-docs', function (req, res) {
+  res.sendFile(path.join(__dirname + '/public/apiDoc.html'));
+});
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
