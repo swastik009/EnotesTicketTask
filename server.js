@@ -5,7 +5,7 @@ const colors = require('colors');
 const connectDB = require('./config/db');
 const errorHandler = require('./middleware/error');
 var cors = require('cors');
-
+const path = require('path');
 //Load env vars
 dotenv.config({ path: './config/config.env' });
 
@@ -26,7 +26,8 @@ if (process.env.NODE_ENV === 'development') {
 
 //Route files
 const tokens = require('./routes/tokens');
-
+//Set static folder
+app.use(express.static(path.join(__dirname, 'public')));
 //Mount Routes
 app.use('/api/v1/tokens', tokens);
 app.use(errorHandler);
