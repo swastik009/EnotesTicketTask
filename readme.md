@@ -1,4 +1,4 @@
-# Easy notes | task ticketing
+# Easy notes | task ticketing API
 
 > Task ticket is an application that lets you create unique special 4 digit token followed by task initials. Which is used in managing tasks in easy notes system development.
 
@@ -20,4 +20,4 @@ npm start
 
 - Version: 1.0.0
 
-<span style="position:relative; left:50%; right: 50%;">Made with &#128151; by Swastik Thapaliya </span>
+<span align="center">Made with &#128151; by Swastik Thapaliya </span>
