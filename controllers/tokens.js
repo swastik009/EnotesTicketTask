@@ -7,7 +7,7 @@ const { query } = require('express');
 // @route   GET /api/v1/tokens
 // @access  Public
 exports.getTokens = asyncHandler(async (req, res, next) => {
-  const tokens = await Token.find();
+  const tokens = await Token.find().sort({ createdAt: -1 });
   return res.status(200).json({
     success: true,
     count: tokens.length,
