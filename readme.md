@@ -17,8 +17,8 @@ npm run dev
 #Run in production mode
 npm start
 ```
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/475/805/3b6.jpg">
 
-- Version: 1.0.0
 
+<span style="">Made with &#128151; by Swastik Thapaliya. </span> <a href="https://fathomless-bastion-69185.herokuapp.com/"> Deployed in Heroku. </a>
 
-<span align="center">Made with &#128151; by Swastik Thapaliya. </span> <a href="https://fathomless-bastion-69185.herokuapp.com/"> Deployed in Heroku </a>
