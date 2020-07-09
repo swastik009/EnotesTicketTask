@@ -22,7 +22,12 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
-//app.use(cors);
+// var corsOptions = {
+//   origin: 'localhost',
+//   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+// };
+
+app.use(cors());
 
 //Route files
 const tokens = require('./routes/tokens');
