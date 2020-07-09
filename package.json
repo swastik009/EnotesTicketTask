@@ -8,6 +8,9 @@
     "start": "NODE_ENV = production node server",
     "dev": "nodemon server"
   },
+  "engines": {
+    "node": "10.16.0"
+  },
   "author": "Swastik Thapaliya",
   "license": "ISC",
   "dependencies": {
